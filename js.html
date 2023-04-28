@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        distancia = parseInt(prompt('Ingrese la distacia a recorrer:', ''));
+
+        if ( distancia <=1000 ) { // || OR
+            document.write('Se recomienda realizar el recorrido a pie');
+        } else if (distancia <=10000 ) {
+            document.write('Se recomienda realizar el recorrido en bicicleta.');
+        } else if (distancia <=30000 ){
+            document.write('Se recomienda realizar el recorrido en colectivo.');
+        } else if (distancia <=100000 ){
+            document.write('Se recomienda realizar el recorrido en auto.');
+        } else if (distancia >100000 ){
+            document.write("se recomienda realizar el recorrido en avion");
+        }
+    </script>
+
+</body>
+
+</htm
