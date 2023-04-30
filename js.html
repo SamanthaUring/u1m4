@@ -23,14 +23,21 @@
         }
     </script>
 <script>
-		const numeros = [0, 1000, 10000 ,30000 , 100000 ];
-
 		
-		for( let i = 0; i < numeros.length; i++){
-			console.log('tenemos ' + numeros[i])
-		}
 
-        </script>
+            var numeros = [0, 1000, 100000, 30000, 10000];
+            
+            var mayor = 0;
+            
+            for (var i = 0; i < numeros.length; i++) {
+            if (numeros[i] > mayor) {
+            mayor = numeros[i];
+            }
+            }
+            
+            console.log('el mayor de ' + numeros + ' es ' + mayor);
+             
+                </script>
 </body>
 
 </htm
